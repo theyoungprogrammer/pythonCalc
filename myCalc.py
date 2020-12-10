@@ -25,6 +25,7 @@ print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
 print("5.Modulo Operation")
+#this above code is for user interaction and understanding 
 
 while True:
     # Take input from the user
@@ -49,7 +50,9 @@ while True:
         
         elif choice == '5':
             print(num1, "%", num2, "=", modulo(num1, num2))
-            
+            # math operators in if-elif conditons
         break
     else:
-        print("Invalid Input") 
+        print("Invalid Input") # invalid input of false statement from the user this block would execute or if block of code will execute
+        
+        #end of program
